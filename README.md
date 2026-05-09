@@ -31,8 +31,8 @@ EtherHUD follows the "beauty of subtraction," providing an ethereal presence tha
 
 ## Compatibility
 ***
-* **Versions:** 1.21.x (Fabric / Quilt)
-* **Technical Dependencies:** Fabric API / Cloth Config API (Recommended)
+* **Versions:** 1.21.x (Fabric)
+* **Technical Dependencies:** Fabric API
 
 ---
 <p align="right">
