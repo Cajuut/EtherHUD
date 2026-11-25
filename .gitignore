@@ -1,0 +1,25 @@
+# Gradle and generated output
+/.gradle/
+/build/
+/out/
+/bin/
+
+# Minecraft development instance and crash reports
+/run/
+/logs/
+/crash-reports/
+/hs_err_pid*.log
+/replay_pid*.log
+
+# Local IDE settings
+/.idea/
+/.vscode/
+/.settings/
+/.classpath
+/.project
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

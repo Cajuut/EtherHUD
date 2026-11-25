@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "etherhud",
+  "version": "${version}",
+  "name": "EtherHUD",
+  "authors": ["caju"],
+  "description": "Customizable HUD modules and an in-game layout editor for Minecraft.",
+  "icon": "assets/etherhud/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["io.github.etherhud.EtherHud"],
+    "modmenu": ["io.github.etherhud.integration.ModMenuIntegration"]
+  },
+  "mixins": ["etherhud.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": ">=0.141.6",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  },
+  "suggests": { "cloth-config": "*", "modmenu": "*" }
+}
